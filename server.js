@@ -22,10 +22,10 @@ app.use(express.static(path.join(__dirname, '/public/')));
 app.use('/css', express.static(path.join(__dirname, '/node_modules/bootstrap/dist/css')));
 app.use('/js', express.static(path.join(__dirname, '/node_modules/bootstrap/dist/js')));
 app.use('/js', express.static(path.join(__dirname, '/node_modules/jquery/dist')));
-
+ 
 // simple route
 app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, 'src/views', 'index.html'));
+    res.sendFile(path.join(__dirname, 'pubic/', 'index.html'));
   // res.send({ message: "Welcome to image compressor app." });
 });
 

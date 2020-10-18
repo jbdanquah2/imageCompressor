@@ -80,7 +80,7 @@ async function compress(file, fileType) {
                 // window.URL.revokeObjectURL(url);
                 // }
                 // }) 
-
+ 
             }, 'image/jpeg', 0.4);
         })
     }
