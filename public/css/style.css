@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap');
+
+body {
+    width: 100%;
+    background-color: #fefefe;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#main {
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: 'Sansita Swashed', cursive;
+}
+
+input,
+select {
+    width: 350px auto;
+    overflow: hidden;
+}
+
+#display {
+    width: 450px auto;
+}
+
+img {
+    max-width: 350px;
+    max-height: 400px;
+}
+
+label {
+    width: 350px;
+    font-weight: 500!important; 
+}
